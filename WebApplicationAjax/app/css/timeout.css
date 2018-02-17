@@ -1,0 +1,10 @@
+#carregando {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid black;
+    width:  200px;
+    font-family: arial;
+    font-weight: bold;
+}

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<produtos><produto><id>1</id><id_categoria>13</id_categoria><nome>Produto 1</nome><descricao>1</descricao><preco>1.00</preco><foto>1</foto><qt_estoque>1</qt_estoque></produto><produto><id>2</id><id_categoria>14</id_categoria><nome>Produto 2</nome><descricao>1</descricao><preco>1.00</preco><foto>2</foto><qt_estoque>1</qt_estoque></produto><produto><id>3</id><id_categoria>13</id_categoria><nome>Produto 3</nome><descricao>1</descricao><preco>1.00</preco><foto>3</foto><qt_estoque>1</qt_estoque></produto></produtos>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jquery com JSONP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/jquery/jquery-2.1.4.js" type="text/javascript"></script>
+        <script src="js/scriptJson.js" type="text/javascript"></script>
+        <style type="text/css" media="all">
+            fieldset {
+                padding: 10px 15px;
+                border: 1px solid #ddd;
+                -moz-border-radius: 10px;
+                -webkit-border-radius: 10px;
+            }
+
+            legend {
+                margin-bottom: 10px;
+            }
+
+
+            table {
+                width: 600px;
+                border-collapse: collapse;
+                border: 1px solid #333;
+            }
+
+            table tr td {
+                border: 1px solid #666;
+                padding: 3px 8px;
+            }
+
+            table tr th {
+                border: 1px solid #333;
+                padding: 3px 8px;
+            }
+
+            label {
+                margin-right: 15px;
+            }
+
+            #dados{
+                margin-top: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Exemplo JQuery com JSONP</h1>
+            <fieldset>
+                <legend>Escolha uma das opções</legend>
+                <label>10
+                    <input type="radio" name="registros" value="10" checked>
+                </label>
+                <label>100
+                    <input type="radio" name="registros" value="100">
+                </label>
+                <label><span>Todos</span>
+                    <input type="radio" name="registros" value="">
+                </label><br/>
+                <input type="button" id="btnLoad" value="Carregar"><br/>
+                <div id="dados"></div>
+            </fieldset>
+        </div>
+    </body>
+</html>

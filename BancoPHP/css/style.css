@@ -1,0 +1,153 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    background-color: #F8F8FF;
+    font-family: Times New Roman, Arial, Verdana;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    max-width: 990px;
+    margin:  0 auto;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 20px 0px 20px 0px;
+    font-weight: bold;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav ul {
+    list-style: outside;
+    padding: 6px;
+    margin: 0px;
+}
+
+nav li {
+    padding: 3px 5px;
+    margin-bottom: 2px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+a:link, a:visited {
+    color: #0000FF;
+}
+
+a:active {
+    color: #FF0000;
+}
+
+.field {
+    width: 180px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.select {
+    width: 186px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.button {
+    width: 140px;
+    height: 37px;
+    margin-right: 15px;
+}
+
+.select_image {
+    height: 37px;
+}
+
+.msg {
+    color: #FF0000;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.obrigatorio {
+    color: #FF0000;
+    font-weight: bold;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td, th {
+    border: 1px solid #2424FF;
+    padding: 3px 7px 2px 7px;
+}
+
+.tabela th {
+    font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    background-color: #2E82FF;
+    color: #FFFFFF;
+}
+
+.button_td {
+    text-align: center;
+    width: 30px;
+}
